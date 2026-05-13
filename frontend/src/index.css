@@ -1,0 +1,15 @@
+@import "@fontsource/inter";
+@import "@fontsource/jetbrains-mono";
+
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/jetbrains-mono";
+
+@unocss preflights;
+@unocss default;
+@unocss;
+
+html,
+body,
+#root {
+    @apply w-full h-full m-0 p-0 b-0 bg-dark text-white font-inter;
+}

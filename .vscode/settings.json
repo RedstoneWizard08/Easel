@@ -1,0 +1,18 @@
+{
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+    "vue.server.path": "frontend/node_modules/@vue/language-server",
+    "js/ts.tsdk.path": "frontend/node_modules/typescript/lib",
+    "deno.enable": false,
+    "js/ts.experimental.useTsgo": false,
+    "[vue]": {
+        "editor.defaultFormatter": "oxc.oxc-vscode"
+    },
+    "editor.formatOnSave": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "oxc.oxc-vscode"
+    },
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "rust-analyzer.files.exclude": ["thirdparty"]
+}

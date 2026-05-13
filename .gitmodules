@@ -1,0 +1,3 @@
+[submodule "thirdparty/sea-orm"]
+	path = thirdparty/sea-orm
+	url = https://github.com/RedstoneWizard08/sea-orm
